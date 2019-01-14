@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Xml.Serialization;
 
 namespace GenijalnoParkingAssignment.Models
 {
@@ -18,7 +19,10 @@ namespace GenijalnoParkingAssignment.Models
 
         public List<ParkingDetail> ParkingDetails { get; set; }
 
-        [Required]
+        //[Required]
         public Vehicle Vehicle { get; set; }
+
+        
+
     }
 }

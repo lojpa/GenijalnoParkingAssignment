@@ -3,7 +3,6 @@ C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignmen
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.runtimeconfig.dev.json
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.dll
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.pdb
-C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.csprojAssemblyReference.cache
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.csproj.CoreCompileInputs.cache
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.RazorAssemblyInfo.cache
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.RazorAssemblyInfo.cs
@@ -12,6 +11,18 @@ C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignmen
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.RazorTargetAssemblyInfo.cache
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.dll
 C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.pdb
-C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\TestProject.cs.dll
-C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\TestProject.cs.pdb
-C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.csproj.CopyComplete
+C:\Users\Dejan\source\repos\GenijalnoParkingAssignment\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.csprojAssemblyReference.cache
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.deps.json
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.runtimeconfig.json
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.runtimeconfig.dev.json
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.dll
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\bin\Debug\netcoreapp2.1\GenijalnoParkingAssignment.pdb
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.csprojAssemblyReference.cache
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.RazorAssemblyInfo.cache
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.RazorAssemblyInfo.cs
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.AssemblyInfoInputs.cache
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.AssemblyInfo.cs
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.RazorTargetAssemblyInfo.cache
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.dll
+C:\Users\Dejan\Desktop\GenijalnoParkingAssignment - Copy\GenijalnoParkingAssignment\obj\Debug\netcoreapp2.1\GenijalnoParkingAssignment.pdb

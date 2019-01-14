@@ -1,5 +1,6 @@
 ﻿using GenijalnoParkingAssignment.Models;
 using GenijalnoParkingAssignment.Repositories;
+using GenijalnoParkingAssignment.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,28 +14,30 @@ namespace GenijalnoParkingAssignment.Controllers
     [ApiController]
     public class CustomerController : Controller
     {
-        private readonly ICustomerRepository _customerRepository;
+        private readonly ICustomerService _customerService;
 
-        public CustomerController(ICustomerRepository customerRepository)
+        public CustomerController(ICustomerService customerService)
         {
-            _customerRepository = customerRepository;
+            _customerService = customerService;
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Customer>> GetCustomer(int id)
         {
-            var customer = await _customerRepository.Get(id);
+            var customer = await _customerService.Get(id);
             if (customer == null)
                 return NotFound();
-            return Ok(new { customer });
+            return Ok(customer);
         }
 
         [HttpGet]
         public async Task<ActionResult<Customer>> GetCustomers()
         {
-            var customers = await _customerRepository.GetAll();
 
-            return Ok(new { customers });
+
+            var customers = await _customerService.GetAll();
+
+            return Ok(customers);
         }
 
         [HttpPost]
@@ -43,21 +46,21 @@ namespace GenijalnoParkingAssignment.Controllers
             if(!ModelState.IsValid)
                 return BadRequest();
 
-            var createdCustomer = await _customerRepository.Create(op);
+            var createdCustomer = await _customerService.Create(op);
             return Ok(createdCustomer);
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteCustomer(int id)
         {
-            await _customerRepository.Delete(id);
+            await _customerService.Delete(id);
             return NoContent();
         }
 
         [HttpPut]
-        public async Task<ActionResult> UpdateCustomer(Customer customer)
+        public async Task<ActionResult<Customer>> UpdateCustomer(Customer customer)
         {
-            var updatedCustomer = await _customerRepository.Update(customer);
+            var updatedCustomer = await _customerService.Update(customer);
             return Ok(updatedCustomer);
         }
     }

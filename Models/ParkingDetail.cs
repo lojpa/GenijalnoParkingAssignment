@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Serialization;
 
 namespace GenijalnoParkingAssignment.Models
 {
@@ -20,5 +21,13 @@ namespace GenijalnoParkingAssignment.Models
 
         public int ParkingId { get; set; }
         public Parking Parking { get; set; }
+
+        public string ToXML()
+        {
+            var stringwriter = new System.IO.StringWriter();
+            var serializer = new XmlSerializer(GetType());
+            serializer.Serialize(stringwriter, this);
+            return stringwriter.ToString();
+        }
     }
 }

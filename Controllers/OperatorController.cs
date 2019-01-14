@@ -1,5 +1,6 @@
 ﻿using GenijalnoParkingAssignment.Models;
 using GenijalnoParkingAssignment.Repositories;
+using GenijalnoParkingAssignment.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -13,28 +14,28 @@ namespace GenijalnoParkingAssignment.Controllers
     [ApiController]
     public class OperatorController : Controller
     {
-        private readonly IOperatorRepository _operatorRepository;
+        private readonly IOperatorService _operatorService;
 
-        public OperatorController(IOperatorRepository operatorRepository)
+        public OperatorController(IOperatorService operatorService)
         {
-            _operatorRepository = operatorRepository;
+            _operatorService = operatorService;
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Operator>> GetOperator(int id)
         {
-            var op = await _operatorRepository.Get(id);
+            var op = await _operatorService.Get(id);
             if (op == null)
                 return NotFound();
-            return Ok(new { op });
+            return Ok(op);
         }
 
         [HttpGet]
         public async Task<ActionResult<Operator>> GetOperators()
         {
-            var ops = await _operatorRepository.GetAll();
+            var ops = await _operatorService.GetAll();
 
-            return Ok(new { ops });
+            return Ok(ops);
         }
 
         [HttpPost]
@@ -43,21 +44,21 @@ namespace GenijalnoParkingAssignment.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
 
-            var createdOperator = await _operatorRepository.Create(op);
+            var createdOperator = await _operatorService.Create(op);
             return Ok(createdOperator);
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteOperator(int id)
         {
-            await _operatorRepository.Delete(id);
+            await _operatorService.Delete(id);
             return NoContent();
         }
 
         [HttpPut]
-        public async Task<ActionResult> UpdateOperator(Operator op)
+        public async Task<ActionResult<Operator>> UpdateOperator(Operator op)
         {
-            var updatedOperator = await _operatorRepository.Update(op);
+            var updatedOperator = await _operatorService.Update(op);
             return Ok(updatedOperator);
         }
 

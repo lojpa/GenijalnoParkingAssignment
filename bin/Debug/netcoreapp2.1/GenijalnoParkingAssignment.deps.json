@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "3e36b8edeca48aae00c74dcedbf03ef4d7183963"
+    "signature": "404b76f4cb422a80b58be84474b33e4d36e9537e"
   },
   "compilationOptions": {
     "defines": [
@@ -27,7 +27,7 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
-          "TestProject.cs": "1.0.0"
+          "RestSharp": "106.6.5"
         },
         "runtime": {
           "GenijalnoParkingAssignment.dll": {}
@@ -208,36 +208,15 @@
           "Microsoft.NETCore.Platforms": "2.1.0"
         }
       },
-      "RestClient/2.4.1.9": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.1.1",
-          "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Extensions.Logging": "2.1.1",
-          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
-          "NETStandard.Library": "2.0.3",
-          "Newtonsoft.Json": "11.0.2",
-          "System.Xml.XmlSerializer": "4.3.0"
-        },
+      "RestSharp/106.6.5": {
         "runtime": {
-          "lib/netstandard1.6/RestClient.dll": {
-            "assemblyVersion": "2.4.1.9",
-            "fileVersion": "2.4.1.9"
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.6.5.0",
+            "fileVersion": "106.6.5.0"
           }
         },
         "compile": {
-          "lib/netstandard1.6/RestClient.dll": {}
-        }
-      },
-      "TestProject.cs/1.0.0": {
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0",
-          "RestClient": "2.4.1.9"
-        },
-        "runtime": {
-          "TestProject.cs.dll": {}
-        },
-        "compile": {
-          "TestProject.cs.dll": {}
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3244,17 +3223,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "RestClient/2.4.1.9": {
+    "RestSharp/106.6.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jB6USo6lEEgfA4beDfE30xiwnItrCaO2bSktAwoAf6sU1JVpMiBOeVjo0aA2oU2QUWkkJdtYhLfC1hCQZVZI1Q==",
-      "path": "restclient/2.4.1.9",
-      "hashPath": "restclient.2.4.1.9.nupkg.sha512"
-    },
-    "TestProject.cs/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
+      "sha512": "sha512-etkh4vgl83D/1qY2xRvl0MKbtJxO6nhaiGP+QZLlicUwvNWCL7eius6IyFzrbfeIfk1kKIHjgprehZ5bxdH5Fw==",
+      "path": "restsharp/106.6.5",
+      "hashPath": "restsharp.106.6.5.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

@@ -40,7 +40,7 @@ namespace GenijalnoParkingAssignment.Repositories
 
         public async Task<Customer> Get(int id)
         {
-            var customer = await _genijalnoParkingContext.Customers.Include(pd => pd.ParkingDetails).FirstOrDefaultAsync(x => x.Id == id);
+            var customer = await _genijalnoParkingContext.Customers.Include(pd => pd.ParkingDetails).Include(v => v.Vehicle).FirstOrDefaultAsync(x => x.Id == id);
 
             if (customer == null)
                 return null;
@@ -50,7 +50,7 @@ namespace GenijalnoParkingAssignment.Repositories
 
         public async Task<IEnumerable<Customer>> GetAll()
         {
-            var customers = await _genijalnoParkingContext.Customers.Include(pd => pd.ParkingDetails).ToListAsync();
+            var customers = await _genijalnoParkingContext.Customers.Include(pd => pd.ParkingDetails).Include(v => v.Vehicle).ToListAsync();
 
             return customers;
         }

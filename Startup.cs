@@ -45,6 +45,9 @@ namespace GenijalnoParkingAssignment
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<IOperatorService, OperatorService>();
+            services.AddTransient<IParkingDetailRepository, ParkingDetailRepository>();
+            services.AddTransient<IParkingDetailService, ParkingDetailService>();
+
 
         }
 

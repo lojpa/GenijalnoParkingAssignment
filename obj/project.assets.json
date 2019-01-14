@@ -2660,6 +2660,15 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
+      "RestSharp/106.6.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -7133,6 +7142,21 @@
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
         "remotion.linq.2.2.0.nupkg.sha512",
         "remotion.linq.nuspec"
+      ]
+    },
+    "RestSharp/106.6.5": {
+      "sha512": "etkh4vgl83D/1qY2xRvl0MKbtJxO6nhaiGP+QZLlicUwvNWCL7eius6IyFzrbfeIfk1kKIHjgprehZ5bxdH5Fw==",
+      "type": "package",
+      "path": "restsharp/106.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.6.5.nupkg.sha512",
+        "restsharp.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -11788,7 +11812,8 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "RestSharp >= 106.6.5"
     ]
   },
   "packageFolders": {
@@ -11798,11 +11823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dejan\\source\\repos\\GenijalnoParkingAssignment\\GenijalnoParkingAssignment\\GenijalnoParkingAssignment.csproj",
+      "projectUniqueName": "C:\\Users\\Dejan\\Desktop\\GenijalnoParkingAssignment - Copy\\GenijalnoParkingAssignment\\GenijalnoParkingAssignment.csproj",
       "projectName": "GenijalnoParkingAssignment",
-      "projectPath": "C:\\Users\\Dejan\\source\\repos\\GenijalnoParkingAssignment\\GenijalnoParkingAssignment\\GenijalnoParkingAssignment.csproj",
+      "projectPath": "C:\\Users\\Dejan\\Desktop\\GenijalnoParkingAssignment - Copy\\GenijalnoParkingAssignment\\GenijalnoParkingAssignment.csproj",
       "packagesPath": "C:\\Users\\Dejan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dejan\\source\\repos\\GenijalnoParkingAssignment\\GenijalnoParkingAssignment\\obj\\",
+      "outputPath": "C:\\Users\\Dejan\\Desktop\\GenijalnoParkingAssignment - Copy\\GenijalnoParkingAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11847,6 +11872,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.6.5, )"
           }
         },
         "imports": [
